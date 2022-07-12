@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.*;
 import java.util.Scanner;
-public class AddTwoNumbers2 {
+public class sum {
 
     public static void main(String[] args) {
 
