@@ -2,7 +2,7 @@ package Recursion;
 
 public class Power {
     public static void main(String[] args) {
-        double ans = power(2,2);
+        double ans = power(5,3);
         System.out.println(ans);
     }
     public static double power(double n, double exp){

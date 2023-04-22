@@ -1,6 +1,6 @@
 package CustomLinkedList;
 
-public class SingleLL {
+public class SingleLL{
     public Node head;
     public Node tail;
     public int size;

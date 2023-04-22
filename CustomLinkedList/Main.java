@@ -13,11 +13,9 @@ public class Main {
         System.out.println(sll.search(3));
         sll.deletenode(3);
         sll.display();
-        sll.deletenode(0);
-        sll.display();
         sll.deletenode(2);
         sll.display();
-        sll.deletenode(1);
-        sll.display();
+
+
     }
 }
