@@ -127,6 +127,24 @@ public class Graph {
 
 
 
+  public void BFSForSSSPP(GraphNode node){
+    Queue<GraphNode> queue = new LinkedList<>();
+    queue.add(node);
+    while(!queue.isEmpty()){
+      GraphNode currNode = queue.poll();
+      currNode.isVisited = true;
+      System.out.print("Printitng path for node" + currNode.name + ": ");
+      pathPrint(currNode);
+      System.out.println();
+      for(GraphNode neighbor : currNode.neighbors){
+        if(!neighbor.isVisited){
+          queue.add(neighbor);
+          neighbor.isVisited=true;
+          neighbor.parent = currNode;
+        }
+      }
+    }
+  }
 
 
 
